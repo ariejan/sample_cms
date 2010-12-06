@@ -13,6 +13,12 @@ This is a simple PHP app to test some nice Git features.
 2. Configure the app by editing `config.php`.
 3. Open the app in your browser. 
 
+## TODO
+
+* Fix SQL Injection bug
+* Support multiple pages
+* Reconnect to MySQL on disconnect
+
 ## Notes
 
 This app is not ment to do anything useful, it's for illustrational purposes only.
