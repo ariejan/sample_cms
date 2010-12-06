@@ -8,8 +8,8 @@ class Page {
   public function render($name) {
     $conn = Configuration::getConnection();
 
-    // FIXME: Fix SQL Injection bug
     // TODO: Retrieve/store title and content as separate DB fields
+    $name = mysql_real_escape_string($name, $conn);
     $sql = 'SELECT `content` FROM `pages` WHERE `name`=\'' . $name . '\' LIMIT 1;';
 
     $result = mysql_query($sql, $conn);
