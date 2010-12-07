@@ -20,6 +20,8 @@ class Configuration {
 
   private static $conn  = null;
 
+  private static $weather = 'cold';
+
   /**
    * Get a valid MySQL connection
    */
