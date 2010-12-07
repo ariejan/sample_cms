@@ -16,3 +16,7 @@ This is a simple PHP app to test some nice Git features.
 ## Notes
 
 This app is not ment to do anything useful, it's for illustrational purposes only.
+
+## License
+
+Yes
